@@ -1,4 +1,4 @@
-// !\$*UTF8*\$!
+// !$*UTF8*$!
 {
 	archiveVersion = 1;
 	classes = {
@@ -138,9 +138,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E25EA47-68F4-400B-BC2C-062719649DCD /* Build configuration list for PBXNativeTarget "FreeTele" */;
 			buildPhases = (
-				0BEDA105-2216-45A8-856D-7613D07760AF /* Sources */,
-				13A69313-0D55-4ED0-B61B-34CF85B2EFF8 /* Frameworks */,
-				0BE8C738-F3F0-4502-B956-C63A5348545B /* Resources */,
+				0E350960-8404-4CC0-B74B-725E3E0CA580 /* Sources */,
+				38A1DC50-B129-4236-8CA0-034EBC5DD7EB /* Frameworks */,
+				F11E97A1-C613-4FE3-AE40-9414E896E630 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -414,5 +414,5 @@
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DBC7D039-AD00-4DC9-9557-712D7E7A9D5C /* Project object */;
+	rootObject = 760982C8-E4BE-442E-9BA4-E65CB04EE467 /* Project object */;
 }
