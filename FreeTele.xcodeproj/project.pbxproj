@@ -1,1 +1,418 @@
-...
+// !\$*UTF8*\$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEFF9583-C04A-4F7C-AD29-36DB45ECBA7B /* FreeTeleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1163B98C-9B62-4C94-B88C-71BD0ABD1786 /* FreeTeleApp.swift */; };
+		15C04219-44DE-47DF-A21D-7BF1596C346A /* TeleprompterScript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20061D68-0F14-46BF-A99B-68F2C0D9962D /* TeleprompterScript.swift */; };
+		DC1CB9F7-6EF5-4D62-AB7E-33F11DC8F4DA /* RecordingSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9837CE0F-A3FC-438C-B2C8-2E374EBDFA80 /* RecordingSettings.swift */; };
+		591C78DF-3D59-4909-BB6C-8B5470D3581F /* CameraViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13655068-EC63-4241-A1AB-D255E3CF7302 /* CameraViewModel.swift */; };
+		A6271BFA-97FF-43FB-871E-C417532AB31F /* TeleprompterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734F9EDC-0C9E-4598-96EA-5A13D2DAC3D5 /* TeleprompterViewModel.swift */; };
+		2704E205-624C-4E9A-BF6C-6D3C4155A71F /* CameraService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90266A5E-131F-4754-B730-0086F61167A4 /* CameraService.swift */; };
+		521C2D82-2B76-4557-A7BF-C4E2F3E90B6F /* PhotoLibraryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870FCC0A-EA7A-4019-955C-61DEC269C51C /* PhotoLibraryService.swift */; };
+		3A9780F5-BD56-4930-9605-E359B1720912 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B894F20C-3948-4CC8-9DAD-72462982DF1D /* ContentView.swift */; };
+		73B607A6-605E-4E90-90B9-31C5CDB0673F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F655D49-05B1-4445-827A-FE43DA2F34EC /* HomeView.swift */; };
+		54EB365B-525F-499F-98A9-4124AB211CDF /* RecordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242629D4-A859-445B-B885-63A2539BB3C0 /* RecordingView.swift */; };
+		6834F1B3-E0DD-46DF-AA5B-9094E7381A82 /* TeleprompterOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C79A5E-F279-47F6-846E-F5C66E0F3C7C /* TeleprompterOverlay.swift */; };
+		F0EB9630-362C-4E52-9499-FCB7A41B7592 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEDD944-5015-4838-829B-38CB7ABC4B02 /* SettingsView.swift */; };
+		A5C32491-D2A7-4623-BF1D-BFE3FCBFFC4D /* CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195C156B-425F-4D5C-A796-935ED5E13E04 /* CameraPreviewView.swift */; };
+		7E88E192-83D8-4DF5-9E30-9F9BCFAE2EFF /* FreeTele.app in Products */ = {isa = PBXBuildFile; fileRef = A6BA34DF-E528-4D6F-8801-968D269A1FE7 /* FreeTele.app */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1163B98C-9B62-4C94-B88C-71BD0ABD1786 /* FreeTeleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeTeleApp.swift; sourceTree = "<group>"; };
+		20061D68-0F14-46BF-A99B-68F2C0D9962D /* TeleprompterScript.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeleprompterScript.swift; sourceTree = "<group>"; };
+		9837CE0F-A3FC-438C-B2C8-2E374EBDFA80 /* RecordingSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingSettings.swift; sourceTree = "<group>"; };
+		13655068-EC63-4241-A1AB-D255E3CF7302 /* CameraViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewModel.swift; sourceTree = "<group>"; };
+		734F9EDC-0C9E-4598-96EA-5A13D2DAC3D5 /* TeleprompterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeleprompterViewModel.swift; sourceTree = "<group>"; };
+		90266A5E-131F-4754-B730-0086F61167A4 /* CameraService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraService.swift; sourceTree = "<group>"; };
+		870FCC0A-EA7A-4019-955C-61DEC269C51C /* PhotoLibraryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLibraryService.swift; sourceTree = "<group>"; };
+		B894F20C-3948-4CC8-9DAD-72462982DF1D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6F655D49-05B1-4445-827A-FE43DA2F34EC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		242629D4-A859-445B-B885-63A2539BB3C0 /* RecordingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingView.swift; sourceTree = "<group>"; };
+		75C79A5E-F279-47F6-846E-F5C66E0F3C7C /* TeleprompterOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeleprompterOverlay.swift; sourceTree = "<group>"; };
+		9EEDD944-5015-4838-829B-38CB7ABC4B02 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		195C156B-425F-4D5C-A796-935ED5E13E04 /* CameraPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreviewView.swift; sourceTree = "<group>"; };
+		A6BA34DF-E528-4D6F-8801-968D269A1FE7 /* FreeTele.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreeTele.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		087A4FA0-99F2-4D17-A74D-2361B462F774 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B583F90B-5CE9-4D35-98E4-BE05B8D1011B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38A1DC50-B129-4236-8CA0-034EBC5DD7EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBC7D039-AD00-4DC9-9557-712D7E7A9D5C = {
+			isa = PBXGroup;
+			children = (
+				1EBA3F41-FF16-49C0-AC89-E26FD2EC0DD0 /* FreeTele */,
+				81BCDE61-15D5-4E73-8F06-FDF896883ED5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81BCDE61-15D5-4E73-8F06-FDF896883ED5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6BA34DF-E528-4D6F-8801-968D269A1FE7 /* FreeTele.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EBA3F41-FF16-49C0-AC89-E26FD2EC0DD0 /* FreeTele */ = {
+			isa = PBXGroup;
+			children = (
+				1163B98C-9B62-4C94-B88C-71BD0ABD1786 /* FreeTeleApp.swift */,
+				A807127F-0D9B-4178-85E0-536789E33347 /* Models */,
+				554A9363-DA65-427E-98F9-BADD6C4B0422 /* ViewModels */,
+				FDC33F71-DA99-4E35-BB90-E3FD1EA1A767 /* Services */,
+				D75D5D55-1467-4B7C-AFDE-EF0657EC2584 /* Views */,
+				9530E641-3560-4CB6-B951-3B6B399C4650 /* Resources */,
+				087A4FA0-99F2-4D17-A74D-2361B462F774 /* Info.plist */,
+			);
+			path = FreeTele;
+			sourceTree = "<group>";
+		};
+		A807127F-0D9B-4178-85E0-536789E33347 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				20061D68-0F14-46BF-A99B-68F2C0D9962D /* TeleprompterScript.swift */,
+				9837CE0F-A3FC-438C-B2C8-2E374EBDFA80 /* RecordingSettings.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		554A9363-DA65-427E-98F9-BADD6C4B0422 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				13655068-EC63-4241-A1AB-D255E3CF7302 /* CameraViewModel.swift */,
+				734F9EDC-0C9E-4598-96EA-5A13D2DAC3D5 /* TeleprompterViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FDC33F71-DA99-4E35-BB90-E3FD1EA1A767 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				90266A5E-131F-4754-B730-0086F61167A4 /* CameraService.swift */,
+				870FCC0A-EA7A-4019-955C-61DEC269C51C /* PhotoLibraryService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D75D5D55-1467-4B7C-AFDE-EF0657EC2584 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B894F20C-3948-4CC8-9DAD-72462982DF1D /* ContentView.swift */,
+				6F655D49-05B1-4445-827A-FE43DA2F34EC /* HomeView.swift */,
+				242629D4-A859-445B-B885-63A2539BB3C0 /* RecordingView.swift */,
+				75C79A5E-F279-47F6-846E-F5C66E0F3C7C /* TeleprompterOverlay.swift */,
+				9EEDD944-5015-4838-829B-38CB7ABC4B02 /* SettingsView.swift */,
+				195C156B-425F-4D5C-A796-935ED5E13E04 /* CameraPreviewView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9530E641-3560-4CB6-B951-3B6B399C4650 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B583F90B-5CE9-4D35-98E4-BE05B8D1011B /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E90D3AB6-8475-400D-A7E3-EF35D7BC4EF9 /* FreeTele */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E25EA47-68F4-400B-BC2C-062719649DCD /* Build configuration list for PBXNativeTarget "FreeTele" */;
+			buildPhases = (
+				0BEDA105-2216-45A8-856D-7613D07760AF /* Sources */,
+				13A69313-0D55-4ED0-B61B-34CF85B2EFF8 /* Frameworks */,
+				0BE8C738-F3F0-4502-B956-C63A5348545B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FreeTele;
+			productName = FreeTele;
+			productReference = A6BA34DF-E528-4D6F-8801-968D269A1FE7 /* FreeTele.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		760982C8-E4BE-442E-9BA4-E65CB04EE467 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4C42AB2D-209F-45C7-972A-081FEBCD939D /* Build configuration list for PBXProject "FreeTele" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBC7D039-AD00-4DC9-9557-712D7E7A9D5C;
+			productRefGroup = 81BCDE61-15D5-4E73-8F06-FDF896883ED5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E90D3AB6-8475-400D-A7E3-EF35D7BC4EF9 /* FreeTele */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F11E97A1-C613-4FE3-AE40-9414E896E630 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E350960-8404-4CC0-B74B-725E3E0CA580 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEFF9583-C04A-4F7C-AD29-36DB45ECBA7B /* FreeTeleApp.swift in Sources */,
+				15C04219-44DE-47DF-A21D-7BF1596C346A /* TeleprompterScript.swift in Sources */,
+				DC1CB9F7-6EF5-4D62-AB7E-33F11DC8F4DA /* RecordingSettings.swift in Sources */,
+				591C78DF-3D59-4909-BB6C-8B5470D3581F /* CameraViewModel.swift in Sources */,
+				A6271BFA-97FF-43FB-871E-C417532AB31F /* TeleprompterViewModel.swift in Sources */,
+				2704E205-624C-4E9A-BF6C-6D3C4155A71F /* CameraService.swift in Sources */,
+				521C2D82-2B76-4557-A7BF-C4E2F3E90B6F /* PhotoLibraryService.swift in Sources */,
+				3A9780F5-BD56-4930-9605-E359B1720912 /* ContentView.swift in Sources */,
+				73B607A6-605E-4E90-90B9-31C5CDB0673F /* HomeView.swift in Sources */,
+				54EB365B-525F-499F-98A9-4124AB211CDF /* RecordingView.swift in Sources */,
+				6834F1B3-E0DD-46DF-AA5B-9094E7381A82 /* TeleprompterOverlay.swift in Sources */,
+				F0EB9630-362C-4E52-9499-FCB7A41B7592 /* SettingsView.swift in Sources */,
+				A5C32491-D2A7-4623-BF1D-BFE3FCBFFC4D /* CameraPreviewView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		083C4D3F-B394-433C-A17F-E58E90F875B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FreeTele/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Free Tele needs camera access to record videos.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Free Tele needs microphone access to record audio with your videos.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Free Tele needs photo library access to save your recorded videos.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Free Tele needs photo library access to save your recorded videos.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.freetele.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E374661-74E6-4D69-9470-02DD88B7405C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FreeTele/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Free Tele needs camera access to record videos.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Free Tele needs microphone access to record audio with your videos.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Free Tele needs photo library access to save your recorded videos.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Free Tele needs photo library access to save your recorded videos.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.freetele.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0A824400-1EF9-4DA9-A898-22BCE71A20CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		58FA4318-4E7A-4E4B-914E-7866C0B65137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E25EA47-68F4-400B-BC2C-062719649DCD /* Build configuration list for PBXNativeTarget "FreeTele" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				083C4D3F-B394-433C-A17F-E58E90F875B8 /* Debug */,
+				2E374661-74E6-4D69-9470-02DD88B7405C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C42AB2D-209F-45C7-972A-081FEBCD939D /* Build configuration list for PBXProject "FreeTele" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A824400-1EF9-4DA9-A898-22BCE71A20CD /* Debug */,
+				58FA4318-4E7A-4E4B-914E-7866C0B65137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBC7D039-AD00-4DC9-9557-712D7E7A9D5C /* Project object */;
+}
